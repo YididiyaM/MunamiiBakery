@@ -1,0 +1,105 @@
+body{
+    background-image: 
+    url("./img/Group\ 1.png");
+    
+    background-repeat: no-repeat;
+    
+    }
+
+
+.button-div li{
+        list-style: none;
+        margin: 40px;
+        display: inline-block;
+        }
+
+.button-div a{
+        width:150;
+        padding: 8px 5px;
+        border-radius: 0px;
+        background-color: none;
+        color: black;
+        text-decoration: none;
+}
+
+.button-div a:hover{
+    color:blueviolet;
+}
+
+.cupcake-collage{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.cupcake-collage article{
+    flex: 1 20%;
+    margin-bottom: 15px;
+}
+
+.cupcake-collage img{
+    object-fit: cover;
+    box-shadow: 0 8px 8px 0px rgba(0,0,0,0.2);
+}
+
+.large-tab-div{
+    background-color: white;
+}
+.wedding-cakes{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.wedding-cakes article{
+    flex: 1 20%;
+    margin-bottom: 15px;
+}
+
+.wedding-cakes img{
+    object-fit: cover;
+    box-shadow: 0 8px 8px 0px rgba(0,0,0,0.2);
+    
+}
+
+footer{
+    background-color: purple;
+}
+
+@media (max-width: 550px){
+    .button-div li{
+        list-style: none;
+        margin: 10px;
+        }
+    .cupcake-collage article{
+        flex: 1 33%;
+        margin-bottom: 15px;
+    }
+
+    .wedding-cakes article{
+        flex: 1 33%;
+        margin-bottom: 15px;
+    }
+    .header-buttons {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        font-size: small;
+      }
+}
+
+@media (max-width: 750px){
+    .cupcake-collage article{
+        flex: 1 100%;
+        margin-bottom: 15px;
+    }
+
+    .wedding-cakes article{
+        flex: 1 100%;
+        margin-bottom: 15px;
+    }
+}
+
+

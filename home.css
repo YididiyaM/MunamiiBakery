@@ -1,0 +1,99 @@
+body{
+    background-image: 
+    url("./img/Rectangle\ 11.png"),
+    url("./img/Group\ 1.png");
+       
+    background-position: 
+        top 0px left 100px,
+        top 0px left 0px;
+        
+    
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+.logo-home{
+    width: 250px;
+    height:250px;
+    top: 0px;
+    margin-left: 200px;
+
+}
+
+.Introduction {
+    max-width: 400px;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-left: 100px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.Introduction a{
+        display: inline-block;
+        background-color: purple;
+        color: white;
+        text-decoration: none;
+}
+
+@media (max-width:550px) {
+    body{
+        background-image: url("./img/Rectangle\ 11.png");
+        background-position: 
+        top 0px left 0px;
+
+    }
+     .header-buttons {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        font-size: small;
+      }
+
+      .logo-home{
+        height:100px;
+        width: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+
+      }
+      .Introduction {
+        max-width: 200px;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 100px;
+        text-align: left;
+        line-height: 20px;
+    }
+  }
+
+  @media (max-width:900px) {
+    body{
+        background-image: 
+        url("./img/Rectangle\ 11.png"),
+        url("./img/Group\ 1.png");
+        background-position: 
+        top 0px left 200px,
+        top 0px left 0px;
+
+    }
+    .Introduction {
+        max-width: 400px;
+        font-size: 18px;
+        margin-top: 60px;
+        margin-left: 200px;
+        margin-bottom: 10px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .logo-home{
+        width: 250px;
+        height:250px;
+        top: 0px;
+        margin-left: 270px;
+    
+    }
+  }
+
